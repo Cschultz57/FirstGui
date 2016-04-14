@@ -95,8 +95,8 @@ public class TempConverter extends javax.swing.JFrame {
 
     private void btnConvertTempActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConvertTempActionPerformed
         double temp = Integer.parseInt(txtInputTemp.getText());
-        double convertedTemp = ((temp - 32) * (5 / 9));
-        lblConvertTemp.setText(convertedTemp + " Centigrade."+ temp);
+        double convertedTemp = ((temp - 32) * 5 / 9);
+        lblConvertTemp.setText(convertedTemp + " Centigrade.");
     }//GEN-LAST:event_btnConvertTempActionPerformed
 
     private void txtInputTempActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtInputTempActionPerformed
